@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import loginRouter from './src/Routes/loginRouter';
+import loginRouter from './src/Routes/loginRouter.js';
 
 
 const app = express();

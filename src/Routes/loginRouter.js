@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import { authenticateUser } from './authService.js';
+import { authenticateUser } from '../middlewares/employeeAuth.js';
 
 const loginRouter = Router();
 
